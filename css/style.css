@@ -246,9 +246,9 @@ pre {
   display: inline-block;
 }
 #fh5co-main-nav ul > li.fh5co-active a {
-  color: #7c7c7c;
-  border-bottom: 2px solid #1d2dfd;
-  font-size: 40px;
+  color: #3a3939;
+  border-bottom: 2px solid #000000;
+  font-size: 23px;
 }
 #fh5co-main-nav ul > li:last-child {
   margin: 0;
@@ -298,9 +298,18 @@ pre {
   }
 }
 #fh5co-intro h1 {
-  font-size: 72px;
+  text-align: center;
+  font-size: 45px;
   color: #000000;
-  line-height: 1.2;
+  line-height: 1;
+}
+#fh5co-intro h2 {
+  text-align: center;
+  font-size: 35px;
+}
+#fh5co-intro h6 {
+  text-align: center;
+  font-size: 19px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro h1 {
@@ -308,7 +317,7 @@ pre {
   }
 }
 #fh5co-intro .fh5co-intro-sub {
-  margin: 2em 0;
+  margin: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-intro-sub {
@@ -520,14 +529,15 @@ pre {
 }
 #fh5co-footer .fh5co-footer-social {
   padding: 0;
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 #fh5co-footer .fh5co-footer-social li {
   display: inline;
-  font-size: 16px;
+  font-size: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
+  
 }
 @media screen and (max-width: 480px) {
   #fh5co-footer .fh5co-footer-social li {
@@ -536,7 +546,7 @@ pre {
   }
 }
 #fh5co-footer .fh5co-footer-social li a {
-  color: #7c7c7c;
+  color: #3739d8;
   padding: 4px 0;
   margin: 0 10px 0 0;
 }
