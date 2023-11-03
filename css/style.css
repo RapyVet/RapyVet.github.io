@@ -22,7 +22,7 @@ body {
   letter-spacing: .05em;
 }
 .wrapper{
-  max-width: fit-content;
+  max-width:inherit;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
